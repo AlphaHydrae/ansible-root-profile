@@ -1,0 +1,3 @@
+---
+- name: Set up root .profile
+  template: src=.profile.j2 dest={{ host_root_home }}/.profile

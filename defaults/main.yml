@@ -1,0 +1,4 @@
+---
+root_profile_lang: en_US.UTF-8
+root_profile_additional_paths: ''
+root_profile_paths: "{{ root_profile_additional_paths }}{{ host_package_manager_paths }}$PATH"

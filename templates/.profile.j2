@@ -1,0 +1,4 @@
+{% if root_profile_lang is defined and root_profile_lang %}
+export LANG="{{ root_profile_lang }}"
+{% endif %}
+export PATH={{ root_profile_paths }}
